@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <title>Personal details</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <form>
+        
+    <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" placeholder="Your first name">
+        </div>
+        <br>
+
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" placeholder="Your last name">
+        </div>
+        <br>
+
+        <div>
+            <label for="faname">Father name:</label>
+            <input type="text" id="faname" placeholder="Your father name">
+        </div>
+        <br>
+
+        <div>
+            <label for="mname">Mother name:</label>
+            <input type="text" id="mname" placeholder="Your mother name">
+        </div>
+        <br>
+        <div>
+            <lable for="age">Your Age:</lable>
+            <input type="number" id="age" placeholder="Enter Your age" required>
+        </div>
+        <br>
+        <div>
+            <lable for="PHONE">Mobile Number :</lable>
+            <input type="number" id="PHONE" placeholder="Enter Your Mobile Number" pattern="[0-9]{10}" required>
+        </div>
+        <br>
+        <label for="countrySelect">Choose your country:</label>
+        <select id="countrySelect" name="country">
+            <option value="">-- Select Country --</option>
+            <option value="IND">India</option>
+            <option value="CAN">Canada</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Reset">
+    </form>
+</body>
+</html>
